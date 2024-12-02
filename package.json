@@ -2,7 +2,10 @@
   "name": "@dev-nx-mono-ssr-mat/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:ssg-web": "nx run ssg-web:serve",
+    "dev:ssr-web": "nx run ssr-web:serve"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
