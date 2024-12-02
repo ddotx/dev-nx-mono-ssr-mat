@@ -11,3 +11,14 @@ npx create-nx-workspace@latest
 npx nx g @nx/angular:app apps/ssr-web --dry-run
 
 ```
+
+## Materials
+```shell
+npm install @angular/material@18
+
+nx g @angular/material:ng-add --project ssg-web
+# > theme = custom
+# > global typo = false
+# > animations = enabled
+
+```
