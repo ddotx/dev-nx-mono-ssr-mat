@@ -22,3 +22,9 @@ nx g @angular/material:ng-add --project ssg-web
 # > animations = enabled
 
 ```
+
+### Theme from custom colors
+```shell
+npx nx generate @angular/material:m3Theme --directory=apps/ssg-web/
+
+```
